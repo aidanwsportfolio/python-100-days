@@ -17,7 +17,6 @@ def add_to_dictionary():
         print("\n" * 20) #make console anonymous
 
     # find highest bid
-    highest_bid = max(bids.values()) #max bid value
-    winner = max(bids) #winning player
+
     print(f"The winner is {winner} with ${highest_bid}")
 add_to_dictionary()
